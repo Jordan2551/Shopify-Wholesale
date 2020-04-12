@@ -150,8 +150,8 @@
             {% if customer and customer.tags contains 'wholesale' %}
                 <!-- NOTE: THE TOTAL PRICE IS AFTER APPLIED DISCOUNTS AND MUST APPEND TWO 0's IN ORDER TO INCLUDE CENTS
                 EXAMPLE: LIMIT OF $350 = 35000 -->
+                {% comment %} END IS BAD SOMEWHERE????? {% endcomment %}
                 {% if cart.total_price >= 35000 %}
-                  <p>Amount is good!</p>
                   {% assign all_wholesale_items = true %}
                   {% for item in cart.items %}
                     {% if item.product.template_suffix != 'wholesale' %}
