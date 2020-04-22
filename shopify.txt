@@ -2,3 +2,9 @@ a wholesale client cannot purchase below min amount
 take info from client (other than user and password).
 send email to ada
 you will be approved page
+
+NOTES:
+the price limit is based AFTER discount no taxes!
+do we need to restrict the wholeseller to ONLY wholeseller products?
+
+
